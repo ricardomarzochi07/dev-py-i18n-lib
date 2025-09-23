@@ -1,0 +1,12 @@
+{
+  "token_expired": {
+    "en": "Token has expired",
+    "es": "El token ha expirado",
+    "fr": "Le jeton a expiré"
+  },
+  "welcome": {
+    "en": "Welcome",
+    "es": "Bienvenido",
+    "fr": "Bienvenue"
+  }
+}
