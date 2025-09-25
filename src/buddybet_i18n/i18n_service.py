@@ -26,7 +26,7 @@ class I18nService:
         self._load_messages()
 
     def _load_messages(self):
-        path = os.path.join(self.root_dir, "resources", "mensajes.json")
+        path = os.path.join(self.root_dir, "message.json")
         if not os.path.isfile(path):
             raise FileNotFoundError(f"No se encontró el fichero de mensajes: {path}")
         with open(path, "r", encoding="utf-8") as f:
