@@ -35,6 +35,9 @@ class I18nService:
     def set_language(self, lang: str):
         current_lang.set(lang)
 
+    def get_language(self):
+        return current_lang.get()
+
     def gettext(self, key: str) -> str:
         lang = current_lang.get()
         entry = self._messages.get(key)
